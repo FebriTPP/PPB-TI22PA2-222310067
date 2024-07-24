@@ -8,8 +8,8 @@ const FriendlistUI = ({ items }) => {
         <Image
           source={
             items.gender === "M"
-              ? require("../../../../assets/icons/boy.png")
-              : require("../../../../assets/icons/girl.png")
+              ? require("../../../../assets/boy.png")
+              : require("../../../../assets/girl.png")
           }
           style={styles.user_ava}
         />
